@@ -51,6 +51,22 @@
       table.my-table tr:nth-child(odd) {
          background-color: #ffffff;
       }
+      
+      nav{
+            text-align:center; /* centers the nav */
+        }
+        
+        nav ul {
+                list-style:none; /* removes the bullets */
+            }
+        nav ul li
+            {
+                display:inline-block; /* makes horizontal, but able to declare margins */
+                margin:0 2%; /* margin left-right, gets smaller as necessary */
+            }
+        nav a:hover{
+            text-decoration: none;
+        }    
 
     </style>
   </head>
@@ -61,7 +77,6 @@
     </header>
     
     <nav>
-      
       <ul>
           <li><a href="#">Link 1</a></li>
           <li><a href="#">Link 2</a></li>
